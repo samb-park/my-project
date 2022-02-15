@@ -1,0 +1,17 @@
+header {
+    @apply bg-white max-w-7xl mx-auto py-16 px-4 sm:pb-12 sm:pt-24 sm:px-6 lg:px-8 text-center;
+}
+
+.name {
+    @apply text-base font-semibold text-indigo-800 tracking-wide uppercase;
+}
+
+.title {
+    @apply mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl;
+}
+.description {
+    @apply mt-4 text-sm sm:text-base text-gray-400 lg:px-60;
+}
+.price {
+    @apply lg:px-60 mt-5 text-base lg:text-2xl;
+}

@@ -1,0 +1,7 @@
+footer {
+    @apply p-4 md:rounded-lg shadow flex items-center justify-center md:p-6 bg-gray-800;
+}
+
+span {
+    @apply text-sm text-gray-500 sm:text-center dark:text-gray-400;
+}

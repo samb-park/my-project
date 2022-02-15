@@ -1,0 +1,7 @@
+.radio {
+    @apply block md:grid md:grid-cols-2 gap-x-5;
+}
+
+.radio label {
+    @apply flex items-center mt-1 text-xs w-full px-3 py-1.5 border border-gray-300 rounded-md shadow-sm focus:outline-none hover:border-indigo-500 focus:border-indigo-500;
+}

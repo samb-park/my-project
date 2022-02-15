@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-100;
+}
+
+.container{
+  @apply max-w-7xl mx-auto sm:px-6 lg:px-8;
+}
+
+section{
+  @apply mx-auto py-16 px-4 sm:px-6 max-w-7xl lg:px-8;
+}
+
+main{
+  @apply  bg-white;
+}

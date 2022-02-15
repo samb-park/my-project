@@ -1,0 +1,11 @@
+.productDetail {
+    @apply max-w-2xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8 justify-items-center;
+}
+
+img {
+    @apply object-center object-cover w-full rounded-md;
+}
+
+h3{
+    @apply mt-2;
+}
